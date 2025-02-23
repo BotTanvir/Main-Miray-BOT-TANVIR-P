@@ -12,10 +12,10 @@ module.exports.config = {
 module.exports.run = async function({ api, event, Threads }) {
     const logger = require("../../utils/log");
     if (!global.configModule[this.config.name].enable) return;
-    var formReport =  "=== Bot notifications ===" +
-                        "\n\n» Group with ID: " + event.threadID +
-                        "\n»  Take action: {task}" +
-                        "\n» Action created by user with ID: " + event.author +
+    var formReport =  "🚫___𝐁𝐎𝐓 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍___🚫" +
+                        "\n\n» 𝐆𝐫𝐨𝐮𝐩 𝐰𝐢𝐭𝐡 𝐈𝐃: " + event.threadID +
+                        "\n»  𝐓𝐚𝐤𝐞 𝐚𝐜𝐭𝐢𝐨𝐧: {task}" +
+                        "\n» 𝐀𝐜𝐭𝐢𝐨𝐧 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐛𝐲 𝐮𝐬𝐞𝐫 𝐰𝐢𝐭𝐡 𝐈𝐃: " + event.author +
                         "\n» " + Date.now() +" «",
         task = "";
     switch (event.logMessageType) {
@@ -27,11 +27,11 @@ module.exports.run = async function({ api, event, Threads }) {
             break;
         }
         case "log:subscribe": {
-            if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) task = "The user added the bot to a new group!";
+            if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) task = "-🎀𝐁𝐎𝐒𝐒 𝐓𝐀𝐍𝐕𝐈𝐑, 𝐊 𝐣𝐞𝐧𝐨 𝐚𝐦𝐫 𝐚 𝐚𝐤𝐭𝐚 𝐠𝐫𝐨𝐮𝐩 𝐚 𝐚𝐝𝐝 𝐝𝐢𝐬𝐞-🌐";
             break;
         }
         case "log:unsubscribe": {
-            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "The user kicked the bot out of the group!"
+            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "-🚫𝐁𝐎𝐒𝐒 𝐓𝐀𝐍𝐕𝐈𝐑, 𝐊𝐨𝐧 𝐡𝐚𝐥𝐚𝐢 𝐣𝐞𝐧𝐨 𝐚𝐦𝐫 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐭𝐡𝐢𝐤𝐚 𝐤𝐢𝐜𝐤 𝐝𝐢𝐬𝐞-🍾"
             break;
         }
         default: 
