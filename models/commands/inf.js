@@ -23,13 +23,13 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg", 
+var link = ["https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg", 
 
-						"https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg", 
+						"https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg", 
 
-						"https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg",
+						"https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg",
 
-"https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg",
+"https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg",
 
 						""];
 
@@ -43,7 +43,7 @@ ________________________________________
 
 💠𝐁𝐎𝐓 𝐍𝐀𝐌𝐄💠 : ${global.config.BOTNAME}
 
-🌼𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍🌼 : 『〽️ BAD-BOT 〽️』
+🌼𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍🌼 : 『〽️ -♦𝐓𝐀𝐍𝐕𝐈𝐑 𝐁𝐎𝐓♦- 〽️』
 
 🔥𝐁𝐈𝐎 𝐀𝐃𝐌𝐈𝐍🔥 : [ ⊱༅༎😽💜༅༎⊱
 
@@ -59,11 +59,11 @@ ________________________________________
 
 _____________🅲🅾🅽🆃🅰🅲🆃_____________
 
-💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 : https://www.facebook.com/saifulislam713?mibextid=ZbWKwL
+💥𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐈𝐃 : https://www.facebook.com/vwobntm471
 
 ✴️𝐁𝐎𝐓 𝐏𝐑𝐄𝐅𝐈𝐗 : ${global.config.PREFIX}
 
-❇️𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 : {🌸𝐒𝐀𝐈𝐅𝐔𝐋 𝐈𝐒𝐋𝐀𝐌} 
+❇️𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑 : {𝐓𝐀𝐍𝐕𝐈𝐑 𝐀𝐇𝐌𝐄𝐃} 
 
 🌺𝐎𝐓𝐇𝐄𝐑 𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍____________________
 
