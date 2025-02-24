@@ -27,7 +27,7 @@ module.exports.handleEvent = async function({
 		var m = global.logMessage.get(g);
 		if (!m) return;
 		let e = await s.getNameUser(l);
-		if (null == m.attachment[0]) return a.sendMessage(`${e} removed 1 message\ncontent: ${m.msgBody}`, u); {
+		if (null == m.attachment[0]) return a.sendMessage(`${e} 🌐__𝐑𝐄𝐌𝐎𝐕𝐄 1 𝐌𝐄𝐒𝐒𝐀𝐆𝐄__🔪\ncontent: ${m.msgBody}`, u); {
 			let t = 0,
 				s = {
 					body: `${e} just removed ${m.attachment.length} attachment.${""!=m.msgBody?`\n\nContent: ${m.msgBody}`:""}`,
@@ -104,7 +104,7 @@ module.exports.handleEvent = async function({
 		var m = global.logMessage.get(g);
 		if (!m) return;
 		let e = await s.getNameUser(l);
-		if (null == m.attachment[0]) return a.sendMessage(`${e} removed 1 message\ncontent: ${m.msgBody}`, u); {
+		if (null == m.attachment[0]) return a.sendMessage(`${e} 🌐__𝐑𝐄𝐌𝐎𝐕𝐄 1 𝐌𝐄𝐒𝐒𝐀𝐆𝐄__🔪 \ncontent: ${m.msgBody}`, u); {
 			let t = 0,
 				s = {
 					body: `${e} just removed ${m.attachment.length} attachment.${""!=m.msgBody?`\n\nContent: ${m.msgBody}`:""}`,
