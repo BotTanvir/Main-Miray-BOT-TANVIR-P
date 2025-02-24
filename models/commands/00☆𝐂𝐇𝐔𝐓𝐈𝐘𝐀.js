@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("Chutiye") ||
 react.includes("CHUTIYE")) {
     var msg = {
-        body: `${name} तु चुतिया होगा।🤯😐😒👈`,
+        body: `${name} _𝐊𝐈𝐒Ø 𝐊𝐎𝐈𝐋𝐀𝐌 𝐍Ø𝐓🤯😐😒👈`,
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😡", event.messageID, (err) => {}, true)
