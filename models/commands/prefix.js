@@ -25,9 +25,9 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
-        return out(`BOT  Prefix ⇉ [ ${prefix} ]                  DEVELOPER: Saiful Islam`)
+        return out(`🌐__𝐁𝐎𝐓  𝐏𝐫𝐞𝐟𝐢𝐱 ⇉ [ ${prefix} ]                  __𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝐓𝐀𝐍𝐕𝐈𝐑 𝐀𝐇𝐌𝐄𝐃`)
       }
-      else return out('️️️️️️️️️️️️️️️️️️️️️️️️️️️BFF-BOT Prefix ⇉' + data.PREFIX)
+      else return out('️️️️️️️️️️️️️️️️️️️️️️️️️️️-♦𝐓𝐀𝐍𝐕𝐈𝐑 𝐁𝐎𝐓♦- 𝐏𝐫𝐞𝐟𝐢𝐱 ⇉' + data.PREFIX)
     }
 
   });
