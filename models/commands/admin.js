@@ -1,11 +1,12 @@
-
 module.exports.config = {
 	name: "admin",
 	version: "1.0.1", 
-	hasPermssion: 0,
-	credits: "Joshua Sy", //don't change the credits please
-	description: "Admin info.",
-	commandCategory: "...",
+	permssion: 0,
+  premium: false,
+  prefix: true,
+	credits: "ALVI",
+	description: "Admin info",
+	category: "...",
 	cooldowns: 1,
 	dependencies: 
 	{
@@ -18,16 +19,15 @@ module.exports.run = async function({ api,event,args,client,Users,Threads,__GLOB
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-var link =["https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg", 
+var link =["https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg", 
             
-            "https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg", 
+            "https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg", 
             
-"https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg",
+"https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg",
             
-            "https://i.postimg.cc/VL7V0Sbw/369250874-1930802593968132-6623658624781565033-n.jpg"];
+            "https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg"];
   
-var callback = () => api.sendMessage({body:`𝗗𝗢 𝗡𝗢𝗧 𝗧𝗥𝗨𝗦𝗧 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗢𝗣𝗘𝗥𝗔 𝗧𝗢𝗥\n
-------------------------------------------------\n𝗡𝗮𝗺𝗲       : SAIFUL ISLAM \n𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 : saifulislam713 \n𝗥𝗲𝗹𝗶𝗴𝗶𝗼𝗻    : (𝗜𝘀𝗹𝗮𝗺)\n𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗔𝗱𝗱𝗿𝗲𝘀𝘀 : (𝗗𝗵𝗮𝗸𝗮)\n𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗔𝗱𝗱𝗿𝗲𝘀𝘀 :𝘿𝙝𝙖𝙠𝙖, 𝘽𝙖𝙣𝙜𝙡𝙖𝙙𝙚𝙨𝙝\n𝗚𝗲𝗻𝗱𝗲𝗿     : (𝗠𝗮𝗹𝗲)\n𝗔𝗴𝗲            :  (25)\n𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝘀𝗵𝗶𝗽 : (বউ বাংলাদেশ আমি বিদেশ)\n𝗪𝗼𝗿𝗸         : Saudi Arabia\n𝗚𝗺𝗮𝗶𝗹        :  si0803144 @gmail.com\n𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :  wa.me/+966556922013\n𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺  : t.me/saifulislam\n𝗙𝗯 𝗹𝗶𝗻𝗸   : https://www.facebook.com/saifulislam6913
-`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+var callback = () => api.sendMessage({body:`🌻-𝗗𝗢 𝗡𝗢𝗧 𝗧𝗥𝗨𝗦𝗧 𝗧𝗛𝗘 𝗕𝗢𝗧 𝗢𝗣𝗘𝗥𝗔 𝗧𝗢𝗥-🌻\n
+------------------------------------------------\n🌺-𝗡𝗮𝗺𝗲-🌺       : 𝗧𝗮𝗻𝘃𝗶𝗿 𝗔𝗵𝗺𝗲𝗱 (𝗗𝗶𝗽𝘁𝗼)_//-🫦\n🍁-𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸-🍁 :𝗧𝗮𝗻𝘃𝗶𝗿 𝗔𝗵𝗺𝗲𝗱_//-🫦\n💚-𝗥𝗲𝗹𝗶𝗴𝗶𝗼𝗻-💚    : (𝗜𝘀𝗹𝗮𝗺)\n🌸-𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗔𝗱𝗱𝗿𝗲𝘀𝘀-🌸 : (𝗗𝗵𝗮𝗸𝗮)\n🌿-𝗖𝘂𝗿𝗿𝗲𝗻𝘁 𝗔𝗱𝗱𝗿𝗲𝘀𝘀-🌿 :(𝗗𝗵𝗮𝗸𝗮,𝗗𝗵𝗮𝗺𝗿𝗮𝗶)\n🔥-𝗚𝗲𝗻𝗱𝗲𝗿-🔥     : (𝗠𝗮𝗹𝗲)\n♻️-𝗔𝗴𝗲-♻️            : 18+\n🔰-𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝘀𝗵𝗶𝗽-🔰 : (𝗦𝗜𝗡𝗚𝗘𝗟_//-😜)\n✴️-𝗪𝗼𝗿𝗸-✴️         : 𝗦𝘁𝘂𝗱𝗲𝗻𝘁_//-🫣\n📩-𝗚𝗺𝗮𝗶𝗹-📩        : 𝘁𝗮𝗻𝘃𝗶𝗿𝘅𝘅𝘅𝘅@𝗴𝗺𝗮𝗶𝗹.𝗰𝗼𝗺\n❇️-𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽-❇️ :  wa.me/+8801323850908\n♀️-𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺-♀️  : t.me/𝗧𝗮𝗻𝘃𝗶𝗿 𝗔𝗵𝗺𝗲𝗱_//-🥱\n-🌼𝗙𝗯 𝗹𝗶𝗻𝗸-🌼   :𝗵𝘁𝘁𝗽𝘀://𝘄𝘄𝘄.𝗳𝗮𝗰𝗲𝗯𝗼𝗼𝗸.𝗰𝗼𝗺/𝗽𝗿𝗼𝗳𝗶𝗹𝗲.𝗽𝗵𝗽?𝗶𝗱=61550669852479&mibextid=𝗸𝗙𝘅𝘅𝗝𝗗 `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
