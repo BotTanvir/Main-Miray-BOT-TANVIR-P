@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   if (event.body.indexOf("byy")==0 || event.body.indexOf("Byy")==0 || event.body.indexOf("Byyy")==0 || event.body.indexOf("byyyy")==0) {
     var msg = {
-        body: "─━━◉❖Nobita❖◉━━─\n JA RAHA HUN BYY 😾",
+        body: "🍒━━◉❖𝐍𝐎𝐁𝐈𝐓𝐀❖◉━━🍒\n -J𝐚𝐰 𝐆𝐚𝐚 𝐜𝐡𝐮𝐥 𝐝𝐚-😾",
         attachment: fs.createReadStream(__dirname + `/noprefix/byy.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
