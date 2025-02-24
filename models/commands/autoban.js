@@ -17,7 +17,7 @@ module.exports.handleEvent = async ({
 	let c = await n.getNameUser(o.senderID);
     //Sửa câu trả lời của Bạn
 	var h = {
-		body: `»Notice from Owner SAURABH THAKUR  «\n\n${c}, You are stupid for cursing bots so bots automatically banned you from the system`
+		body: `🚫__𝐍𝐎𝐓𝐈𝐂𝐄 𝐅𝐑𝐎𝐌 𝐎𝐖𝐍𝐄𝐑 𝐓𝐀𝐍𝐕𝐈𝐑 𝐀𝐇𝐌𝐄𝐃__🌐\n\n${c}, You are stupid for cursing bots so bots automatically banned you from the system`
 	};
     //Add curse words without capital letters
 	["bot mc", "Mc bot", "Chutiya bot", "Bsdk bot", "Bot teri maa ki chut", "Jhatu bot", "Rhaine bobo", "stupid bots", "chicken bot", "Bot lund", "Saurabh mc", "Mc saurabh", "Bsdk saurabh", "fuck bots", "Saurabh chutiya", "Saurabh gandu", "bobo Ginoong choru bot", "Saurabh bc", "crazy bots", "bc saurabh", "Nikal bsdk bot", "bot khùng", "đĩ bot", "bot paylac rồi", "con bot lòn", "cmm bot", "clap bot", "bot ncc", "bot oc", "bot óc", "bot óc chó", "cc bot", "bot tiki", "lozz bottt", "lol bot", "loz bot", "lồn bot", "bot lồn", "bot lon", "bot cac", "bot nhu lon", "bot như cc", "bot như bìu", "Bot sida", "bot sida", "bot fake", "Bảo ngu", "bot shoppee", "bad bots", "bot cau"].forEach((a => {
@@ -35,7 +35,7 @@ module.exports.handleEvent = async ({
 			}), t.sendMessage(h, e, (() => {
 				const o = global.config.ADMINBOT;
 				var n = o;
-				for (var n of o) t.sendMessage(`=== Bot Notification ===\n\n🆘Sinners: ${c}\n🔰Uid: ${s}\n😥Send bots: ${a}\n\nBanned from the system`, n)
+				for (var n of o) t.sendMessage(`♦__𝐁𝐎𝐓 𝐍𝐎𝐓𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍__♦\n\n🆘𝐒Ø𝐒: ${c}\n🔰𝐔𝐢𝐝: ${s}\n😥 𝐒𝐄𝐍𝐃 𝐁𝐎𝐓𝐒: ${a}\n\n 𝐁𝐀𝐍𝐍𝐄𝐃 𝐅𝐑𝐎𝐌 𝐓𝐇𝐄 𝐒𝐘𝐒𝐓𝐄𝐌-`, n)
 			}))
 		}
 	}))
